@@ -1,3 +1,7 @@
+DOI:  
+
+10.5281/zenodo.6534755
+
 # Getting Started #
 
 ## Environment info ##
