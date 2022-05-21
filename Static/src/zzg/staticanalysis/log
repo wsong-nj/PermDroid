@@ -1,0 +1,33 @@
+选app，注意选能直接使用的，因为VPN会现在mysql的访问
+
+/**		（socialApps）											APIs数量 
+	 *  APK Name		|       危险权限s        |  StepOne --  STG
+	 *  ————————————————————————————————————————————————————————
+	 * anarxiv          | 			1			| 		-
+	 * drinks_32        | 			0			| 		-
+	 * flym_32			| 			1			|      1-1 （太少，VPN） 
+	 * forecastie_51	| 			2			| 		14--10+1
+	 * goodweather_13	| 			2			| 		18--3+7
+	 * librenews_5		| 			0			| 		-
+	 * nwsweather_10	| 			0			| 		-
+	 * openmanga_51331	| 			2			| 		3--2  （特例 他将 checkselfpermission 和 requestpermissions包装起来了->boolean checkPermission(String permission)，这个在staticTepOne中特殊处理了 ,以后都修改这个）
+	 * openmensa_27		| 			2			| 		7-0+3
+	 * simpleweather_656| 			2			| 		4-0
+	 * ———————————————————————————————————————————————————————————
+	 * 						（socialApps3）	
+	 * disrootapp_25		 	3                        8-8        (有571条边 ，  特例 checkAndRequestPermissions,先不修改代码，跑一遍试试 看看覆盖率)
+	 * dns66_27					1(但没有用APIs)
+	 * dokuwiki_55				0
+	 * droidshows_71102         2(但没有用APIs)
+	 * dsbdirect_39				0
+	 * forpdaplus_638			2						6-4			插入日志失败
+	 * gitlab_2070400			1						3-3			安装失败    （特列checkDownloadBuild）
+	 * gotify_16				0
+	 * hacs_47					4						1-1
+	 * indigenous_64			4						9-4+2  requestPermission
+	 * mastodon_376				3(但没有用APIs)
+	 * notification_60			3 						8-2   （特例checkAndRequestPermissions ，，isPermissionGranted()）
+	 * router_4745257			0
+	 * smoke_20201225			2						3-3			安装失败
+	 * wechange_6				2						3-3			运行失败
+	 * */

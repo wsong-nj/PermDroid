@@ -1,0 +1,207 @@
+三月 30, 2021 11:02:12 上午 brut.androlib.ApkDecoder decode
+信息: Using Apktool 2.5.0 on goodweather_13.apk
+三月 30, 2021 11:02:12 上午 brut.androlib.res.AndrolibResources loadMainPkg
+信息: Loading resource table...
+三月 30, 2021 11:02:12 上午 brut.androlib.res.AndrolibResources decodeManifestWithResources
+信息: Decoding AndroidManifest.xml with resources...
+三月 30, 2021 11:02:12 上午 brut.androlib.res.AndrolibResources loadFrameworkPkg
+信息: Loading resource table from file: C:\Users\杨帅豪\AppData\Local\apktool\framework\1.apk
+三月 30, 2021 11:02:14 上午 brut.androlib.res.AndrolibResources adjustPackageManifest
+信息: Regular manifest package...
+三月 30, 2021 11:02:15 上午 brut.androlib.res.AndrolibResources decode
+信息: Decoding file-resources...
+三月 30, 2021 11:02:17 上午 brut.androlib.res.AndrolibResources decode
+信息: Decoding values */* XMLs...
+三月 30, 2021 11:02:17 上午 brut.androlib.Androlib decodeSourcesRaw
+信息: Copying raw classes.dex file...
+三月 30, 2021 11:02:17 上午 brut.androlib.Androlib decodeRawFiles
+信息: Copying assets and libs...
+三月 30, 2021 11:02:17 上午 brut.androlib.Androlib decodeUnknownFiles
+信息: Copying unknown files...
+三月 30, 2021 11:02:17 上午 brut.androlib.Androlib writeOriginalFiles
+信息: Copying original files...
+[App]	Decompile Apk successful!
+[App]	============ Manifest ============
+[App]	Package name: org.asdtm.goodweather
+[App]	org.asdtm.goodweather.MainActivity
+[App]	org.asdtm.goodweather.SettingsActivity
+[App]	org.asdtm.goodweather.SearchActivity
+[App]	org.asdtm.goodweather.WeatherForecastActivity
+[App]	org.asdtm.goodweather.GraphsActivity
+[App]	org.asdtm.goodweather.LicenseActivity
+[App]	launch activity: org.asdtm.goodweather.MainActivity
+[App]	real launch activity: org.asdtm.goodweather.MainActivity
+[App]	==================================
+[App]	============ R class ============
+[App]	=================================
+[App]	---------Exclude classes using package names..
+[App]	Start to construct Callgraph...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.0348705 seconds
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 15 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 15 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 15 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 15 components...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...
+[main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.
+[main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 9 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on G:\APK\socialApps\goodweather_13.apk with 0 sources and 0 sinks...
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: false
+[main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds
+[main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 0.9417544 seconds
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 7891 edges
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks
+[App]	End, took 11933ms
+[App]	Callgraph has 7891 edges
+[App]	Remove 7290 edges
+[App]	Add 572 edges
+[App]	Parse public.xml
+[App]	Parse public.xml succeful!!
+[App]	Parse strings.xml succeful!!
+[ButterKnifeHandler]	Start to handle ButterKnife...
+[ButterKnifeHandler]	Handle ButterKnife end.
+[Main]	============ Fragment Nodes ============
+[Generator-FragmentNode]	Start to generate FragmentNode [org.asdtm.goodweather.SettingsActivity$AboutPreferenceFragment$a]
+[Generator-FragmentNode]	is DialogFragment
+[Generator-DialogNode]	Start to generate DialogNode [<org.asdtm.goodweather.SettingsActivity$AboutPreferenceFragment$a: android.app.Dialog onCreateDialog(android.os.Bundle)>]
+[Generator-DialogNode]	Stmt: null
+handleDialog
+[Generator-DialogNode]	Successful
+[Generator-DialogNode]	End
+[Generator-FragmentNode]	Start to generate FragmentNode [org.asdtm.goodweather.SettingsActivity$AboutPreferenceFragment]
+[Generator-FragmentNode]	is PreferenceFragment
+[Generator-FragmentNode]	Start to generate FragmentNode [org.asdtm.goodweather.SettingsActivity$GeneralPreferenceFragment]
+[Generator-FragmentNode]	is PreferenceFragment
+[Generator-FragmentNode]	Start to generate FragmentNode [org.asdtm.goodweather.SettingsActivity$WidgetPreferenceFragment]
+[Generator-FragmentNode]	is PreferenceFragment
+[Generator-FragmentNode]	Start to generate FragmentNode [org.asdtm.goodweather.SettingsActivity$a]
+[Generator-FragmentNode]	is DialogFragment
+[Generator-DialogNode]	Start to generate DialogNode [<org.asdtm.goodweather.SettingsActivity$a: android.app.Dialog onCreateDialog(android.os.Bundle)>]
+[Generator-DialogNode]	Stmt: null
+handleDialog
+[Generator-DialogNode]	Successful
+[Generator-DialogNode]	End
+[Generator-FragmentNode]	Start to generate FragmentNode [org.asdtm.goodweather.c]
+[Generator-FragmentNode]	is DialogFragment
+[Generator-DialogNode]	Start to generate DialogNode [<org.asdtm.goodweather.c: android.app.Dialog onCreateDialog(android.os.Bundle)>]
+[Generator-DialogNode]	Stmt: null
+handleDialog
+[Generator-DialogNode]	Successful
+[Generator-DialogNode]	End
+[Main]	========================================
+[Main]	============ Activity Nodes ============
+[Generator-ActivityNode]	Start to generate ActivityNode [org.asdtm.goodweather.MainActivity]
+[Generator-ActivityNode]		Layout: activity_main
+[Generator-ActivityNode]	Activity Statically registered widgets size: 0
+YSH 类org.asdtm.goodweather.MainActivity静态注册了以下碎片，下面是碎片的类名
+[Generator-ActivityNode]	Find a ViewCallbackRegister
+[WidgetFinder]	----Strat to fing target fragment/widget for:
+[WidgetFinder]	--------Stmt: virtualinvoke $r15.<android.support.design.widget.FloatingActionButton: void setOnClickListener(android.view.View$OnClickListener)>($r16)
+[WidgetFinder]	--------Method: <org.asdtm.goodweather.MainActivity: void onCreate(android.os.Bundle)>
+[WidgetFinder]	--------Caller: null
+[WidgetFinder]	----End
+[Generator-ActivityNode]	Successful to find a Widget
+[Generator-Menu]	Start to generate OptionsMenuNode [<org.asdtm.goodweather.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>]
+[Generator-Menu]		Find the MenuInflater...
+[Generator-Menu]			Layout Id: 2131755008
+[Generator-Menu]			Layout: activity_main_menu
+[Generator-Menu]			Items size: 3
+[EventAnalyzer]	Find a Activity Transition!
+[TargetActivityFinder]	----Strat to collect intent info and fing target activity for:
+[TargetActivityFinder]	--------Stmt: virtualinvoke r0.<org.asdtm.goodweather.MainActivity: void startActivityForResult(android.content.Intent,int)>($r3, 1)
+[TargetActivityFinder]	--------Method: <org.asdtm.goodweather.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+[TargetActivityFinder]	--------Caller: null
+[TargetActivityFinder]	------------Forward Dataflow
+[EventAnalyzer] zzg.staticanalysis.analyzer.ActiveBodyNotFoundException: java.lang.RuntimeException: No method source set for method <android.view.View$OnClickListener: void onClick(android.view.View)>
+[EventAnalyzer]		at zzg.staticanalysis.analyzer.EventAnalyzer.analysisEventMethod(EventAnalyzer.java:84)
+[EventAnalyzer]		at zzg.staticanalysis.analyzer.EventAnalyzer.analysis(EventAnalyzer.java:49)
+[EventAnalyzer] Caused by: java.lang.RuntimeException: No method source set for method <android.view.View$OnClickListener: void onClick(android.view.View)>
+[EventAnalyzer]		at soot.SootMethod.retrieveActiveBody(SootMethod.java:398)
+[EventAnalyzer]		at zzg.staticanalysis.analyzer.EventAnalyzer.analysisEventMethod(EventAnalyzer.java:78)
+[TargetActivityFinder]	--------end with target: org.asdtm.goodweather.SearchActivity
+[TargetActivityFinder]	----End
+[EventAnalyzer]	Build A T in <org.asdtm.goodweather.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+[EventAnalyzer]		-> org.asdtm.goodweather.SearchActivity
+[Generator-ActivityNode]	Start to generate ActivityNode [org.asdtm.goodweather.SettingsActivity]
+[Generator-ActivityNode]	Start to generate ActivityNode [org.asdtm.goodweather.SearchActivity]
+[Generator-ActivityNode]		Layout: activity_search
+[Generator-ActivityNode]	Activity Statically registered widgets size: 0
+YSH 类org.asdtm.goodweather.SearchActivity静态注册了以下碎片，下面是碎片的类名
+[Generator-ActivityNode]	Start to generate ActivityNode [org.asdtm.goodweather.WeatherForecastActivity]
+[Generator-ActivityNode]		Layout: activity_weather_forecast
+[Generator-ActivityNode]	Activity Statically registered widgets size: 0
+YSH 类org.asdtm.goodweather.WeatherForecastActivity静态注册了以下碎片，下面是碎片的类名
+[Generator-Menu]	Start to generate OptionsMenuNode [<org.asdtm.goodweather.WeatherForecastActivity: boolean onCreateOptionsMenu(android.view.Menu)>]
+[Generator-Menu]		Find the MenuInflater...
+[Generator-Menu]			Layout Id: 2131755012
+[Generator-Menu]			Layout: weather_forecast_menu
+[Generator-Menu]			Items size: 1
+[Generator-Menu]	The corresponding widget for item[16908332] could not be found, generate one.
+[EventAnalyzer]	Find a Dialog!
+[Generator-ActivityNode]	Start to generate ActivityNode [org.asdtm.goodweather.GraphsActivity]
+[Generator-ActivityNode]		Layout: activity_graphs
+[Generator-ActivityNode]	Activity Statically registered widgets size: 0
+YSH 类org.asdtm.goodweather.GraphsActivity静态注册了以下碎片，下面是碎片的类名
+[Generator-Menu]	Start to generate OptionsMenuNode [<org.asdtm.goodweather.GraphsActivity: boolean onCreateOptionsMenu(android.view.Menu)>]
+[Generator-Menu]		Find the MenuInflater...
+[Generator-Menu]			Layout Id: 2131755010
+[Generator-Menu]			Layout: menu_graphs
+[Generator-Menu]			Items size: 3
+[Generator-Menu]	The corresponding widget for item[16908332] could not be found, generate one.
+[EventAnalyzer]	Find a Dialog!
+[Generator-ActivityNode]	Start to generate ActivityNode [org.asdtm.goodweather.LicenseActivity]
+[Generator-ActivityNode]		Layout: activity_license
+[Generator-ActivityNode]	Activity Statically registered widgets size: 0
+YSH 类org.asdtm.goodweather.LicenseActivity静态注册了以下碎片，下面是碎片的类名
+[Main]	========================================
+[Main]	============ Transitions ============
+[EventAnalyzer]	Start to analysis Widgets Event
+[EventAnalyzer]	In node: ACTIVITY[org.asdtm.goodweather.MainActivity]
+[EventAnalyzer]	Widget: <(id:1) type:android.support.design.widget.FloatingActionButton, resName:fab, , resID:2131689673, text:空, , eventTypeCLICK, eventmethod:onClick, isTest:false, hasDependWidgets:0>;
+[EventAnalyzer]	EventHandler: void onClick(android.view.View)
+没有活跃body
+[EventAnalyzer]	end
+[Main]	=====================================
+[Main]	Start to find missing testing-point...
+[IOService]	write graph successful: G:\APK\socialApps\goodweather_13\static\GUIModel_org.asdtm.goodweather.dat
+-----------------Result-----------------
+Node size:  [ACTIVITY 6; Fragment 6; All 15]
+Edge size: 4
+
+[Main]	End, took 33s
+[Main]	LOC: 8

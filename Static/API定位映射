@@ -1,0 +1,46 @@
+
+|———————————————————————————————staticStepOne———————————————————————————————|
+1.常量设置：危险权限组<--->危险权限<--->相关APIs
+2.menifest分析: pkg,mainActivity,allActivities,dangerousPermissions,apiLocateInfo
+3.API定位：  采用的方式->逐行扫描代码（排除了系统jar包，有可能有死代码,只考虑app本身的代码；可以使用CG内扫描来替代，这种也有问题，精度依赖于CG的准确性。）
+		apiLocateInfo  for  example: 
+		TTT___***start***____
+		Class :de.uni_potsdam.hpi.openmensa.ui.settings.canteenlist.LocationUtil
+		Method :boolean  hasLocationAccessPermission(android.content.Context)
+		API signature:<androidx.core.content.ContextCompat: int checkSelfPermission(android.content.Context,java.lang.String)>
+		permission :"android.permission.ACCESS_FINE_LOCATION"
+		TTT____***end***_____
+		
+		___***start***____
+		Class :de.uni_potsdam.hpi.openmensa.extension.LocationManagerKt
+		Method :boolean  requestLocationUpdatesIfSupported(android.location.LocationManager,java.lang.String,long,float,android.location.LocationListener)
+		API signature:<android.location.LocationManager: void requestLocationUpdates(java.lang.String,long,float,android.location.LocationListener)>
+		permission :"android.permission.ACCESS_FINE_LOCATION  android.permission.ACCESS_COARSE_LOCATION  "
+		____***end***_____
+4.插装log  重签名，用于计算覆盖率
+|——————————————————————————————staticStepTwo————————————————————————————————|
+
+
+
+
+
+
+
+
+
+
+
+《看了10个app，她的istest判断马马虎虎吧，可能是他的API比较少，也能找到Nodes is true的，但widgets is true 的就很差劲。》
+isTargetAPI or isCheckSelfPermission  or isRequestPermissions
+|————————————————————————————————staticStepThree——————————————————————————————|
+节点里面再加一个属性：权限集合
+控件里面也添加一个属性：权限集合
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs_soot/soot-4.2.1-jar-with-dependencies.jar" sourcepath="/StaticAnalyse/libs/soot-4.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/StaticAnalyse/libs/soot-4.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs_soot/apktool_2.5.0.jar"/>
+	<classpathentry kind="lib" path="libs_flowdroid/soot-infoflow-android-classes-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs_flowdroid/soot-infoflow-android-classes-sources.jar"/>
+	<classpathentry kind="lib" path="libs_flowdroid/soot-infoflow-android-classes.jar" sourcepath="libs_flowdroid/soot-infoflow-android-classes-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/StaticAnalyse/libs_flowdroid/soot-infoflow-android-classes-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs_flowdroid/soot-infoflow-classes-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs_flowdroid/soot-infoflow-classes-sources.jar"/>
+	<classpathentry kind="lib" path="libs_flowdroid/soot-infoflow-classes.jar" sourcepath="libs_flowdroid/soot-infoflow-classes-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Static/libs_flowdroid/soot-infoflow-classes-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs_soot/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs_soot/trove4j-3.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
