@@ -31,9 +31,9 @@ public class startMyDynamic {
 //		}
 //		//
 		
-		//runPermDroid();   
+		runPermDroid();   
 		//runMyBFS();
-		runAPE(pkgName);				  
+		//runAPE(pkgName);				  
 		//runMonkey("14");				  
 		//runGESDA();					
 		myCovMonitorCat.interrupt();
